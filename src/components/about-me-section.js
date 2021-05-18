@@ -13,10 +13,7 @@ class AboutMe extends Component {
           <Col lg={1}></Col>
           <Col md={3}>
             <Image
-              src={
-                process.env.PUBLIC_URL + "/images/Photo.png"}
-              rounded
-              fluid
+              src={process.env.PUBLIC_URL + "/images/Photo.png"} height='250px' width='200px'
             />
           </Col>
 

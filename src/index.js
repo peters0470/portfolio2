@@ -22,7 +22,7 @@ import { motion } from "framer-motion";
 
 ReactDOM.render(
   <motion.div style={{ position: "relative", zIndex: "0" }}>
-    <SideBar />
+    
     <Arrow arrowColor="#2C365E" zIndex="-1" height="620">
       <NavBar />
       <JumbotronPage />

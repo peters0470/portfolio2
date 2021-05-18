@@ -33,13 +33,13 @@ const ProjectCard = (props) => {
           href={githubUrl}
           alt="link to github repo"
           iconPic="fab fa-github"
-          color="#dea6af"
+          color="#2C365E"
         />
         <Icon
           href={deployedUrl}
           alt="link to deployed site"
           iconPic="fas fa-external-link-alt"
-          color="#dea6af"
+          color="#2C365E"
         />
       </Card.Footer>
     </Card >

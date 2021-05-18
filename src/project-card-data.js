@@ -19,7 +19,7 @@ export const cardList = [
     },
     {
       "cardTitle": "Meal Queue",
-      "projectPic": "/images/projects/mealQ.jpg",
+      "projectPic": "/images/projects/Meal-Queue.png",
       "alt": "Meal Queue",
       "deployedUrl": 'https://axeliono.github.io/Meal-Queue/',
       "description": 'Meal Queue is an aide to help individuals come up with dinner ideas. Type in a food item and a list of different recipes is presented with an option to view a video tutorial.',
@@ -37,7 +37,7 @@ export const cardList = [
     },
     {
       "cardTitle": "Weather Dashboard",
-      "projectPic": "/images/projects/weather.png",
+      "projectPic": "/images/projects/Weath-Dash.png",
       "alt": "Weather Dashboard",
       "deployedUrl": 'https://peters0470.github.io/Weather-Dashboard/',
       "description": "App that retrieves weather and UV index data from OpenWeather API for any city the user searches for.",
@@ -46,7 +46,7 @@ export const cardList = [
     },
     {
       "cardTitle": "Work Day Scheduler",
-      "projectPic": "/images/projects/work-scheduler.png",
+      "projectPic": "/images/projects/WDS.png",
       "alt": "Workj Day Scheduler",
       "deployedUrl": 'https://peters0470.github.io/Work-Day-Scheduler/',
       "description": "A website to give the user a daily work hour scheduler. Items can be added for that day by the hour and colors indicate past, present and future tasks.",
