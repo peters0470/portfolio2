@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.c84f347b.chunk.css",
-    "main.js": "/static/js/main.985de1af.chunk.js",
-    "main.js.map": "/static/js/main.985de1af.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0ad17991.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0ad17991.js.map",
-    "static/css/2.b358df14.chunk.css": "/static/css/2.b358df14.chunk.css",
-    "static/js/2.562b8bd0.chunk.js": "/static/js/2.562b8bd0.chunk.js",
-    "static/js/2.562b8bd0.chunk.js.map": "/static/js/2.562b8bd0.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.b358df14.chunk.css.map": "/static/css/2.b358df14.chunk.css.map",
-    "static/css/main.c84f347b.chunk.css.map": "/static/css/main.c84f347b.chunk.css.map",
-    "static/js/2.562b8bd0.chunk.js.LICENSE.txt": "/static/js/2.562b8bd0.chunk.js.LICENSE.txt",
-    "static/media/mdb.css": "/static/media/arrow_right.0897f985.svg",
-    "static/media/all.css": "/static/media/fa-solid-900.efbd5d20.eot",
-    "static/media/font-mfizz.css": "/static/media/font-mfizz.ea81304f.eot"
+    "main.css": "/portfolio2/static/css/main.c84f347b.chunk.css",
+    "main.js": "/portfolio2/static/js/main.355bf411.chunk.js",
+    "main.js.map": "/portfolio2/static/js/main.355bf411.chunk.js.map",
+    "runtime-main.js": "/portfolio2/static/js/runtime-main.0903a6e3.js",
+    "runtime-main.js.map": "/portfolio2/static/js/runtime-main.0903a6e3.js.map",
+    "static/css/2.d33d457d.chunk.css": "/portfolio2/static/css/2.d33d457d.chunk.css",
+    "static/js/2.562b8bd0.chunk.js": "/portfolio2/static/js/2.562b8bd0.chunk.js",
+    "static/js/2.562b8bd0.chunk.js.map": "/portfolio2/static/js/2.562b8bd0.chunk.js.map",
+    "index.html": "/portfolio2/index.html",
+    "static/css/2.d33d457d.chunk.css.map": "/portfolio2/static/css/2.d33d457d.chunk.css.map",
+    "static/css/main.c84f347b.chunk.css.map": "/portfolio2/static/css/main.c84f347b.chunk.css.map",
+    "static/js/2.562b8bd0.chunk.js.LICENSE.txt": "/portfolio2/static/js/2.562b8bd0.chunk.js.LICENSE.txt",
+    "static/media/mdb.css": "/portfolio2/static/media/arrow_right.0897f985.svg",
+    "static/media/all.css": "/portfolio2/static/media/fa-solid-900.efbd5d20.eot",
+    "static/media/font-mfizz.css": "/portfolio2/static/media/font-mfizz.ea81304f.eot"
   },
   "entrypoints": [
-    "static/js/runtime-main.0ad17991.js",
-    "static/css/2.b358df14.chunk.css",
+    "static/js/runtime-main.0903a6e3.js",
+    "static/css/2.d33d457d.chunk.css",
     "static/js/2.562b8bd0.chunk.js",
     "static/css/main.c84f347b.chunk.css",
-    "static/js/main.985de1af.chunk.js"
+    "static/js/main.355bf411.chunk.js"
   ]
 }
