@@ -28,7 +28,7 @@ export const cardList = [
     },
     {
       "cardTitle": "Note Taker",
-      "projectPic": "/images/projects/note-taker.png",
+      "projectPic": "/images/projects/Note-Taker.png",
       "alt": "Note Taker",
       "deployedUrl": 'https://github.com/peters0470/note-taker.git',
       "description": 'This application allows the user to enter, edit, save and delet notes.',
