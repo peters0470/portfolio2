@@ -1,17 +1,57 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/font-mfizz/dist/font-mfizz.css";
+import "mdbreact/dist/css/mdb.css";
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
+import { BrowserRouter } from "react-router-dom";
+
+import Arrow from "./components/arrow";
+import SideBar from "./components/sidebar";
+import Footer from "./components/footer";
+import JumbotronPage from "./components/jumbotron-page";
+import ProjectSection from "./components/project-section";
+import cardList from "./project-card-data";
+import AboutMe from "./components/about-me-section";
+import SkillsSection from "./components/skills-section";
+import NavBar from "./components/navbar";
+import { motion } from "framer-motion";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <motion.div style={{ position: "relative", zIndex: "0" }}>
+    <SideBar />
+    <Arrow arrowColor="#2C365E" zIndex="-1" height="620">
+      <NavBar />
+      <JumbotronPage />
+    </Arrow>
+    <Arrow arrowColor="#e6dbc9" zIndex="-2" padTop={true} height="300">
+      <AboutMe />
+    </Arrow>
+    <Arrow arrowColor="#2C365E" zIndex="-3" padTop={true}>
+      <ProjectSection>{cardList}</ProjectSection>
+    </Arrow>
+    <Arrow arrowColor="#e6dbc9" zIndex="-4" padTop={true}>
+      <SkillsSection />
+    </Arrow>
+
+    <motion.div
+      style={{
+        zIndex: "-5",
+        paddingTop: 75,
+        position: "relative",
+        backgroundColor: "#2C365E",
+      }}
+    >
+      <Footer />
+    </motion.div>
+  </motion.div>,
+  document.getElementById("root")
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();
