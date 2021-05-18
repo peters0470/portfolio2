@@ -31,7 +31,7 @@ class ProjectSection extends Component {
     return (
       <Container id="projects" className="px-5" fluid>
         <Row>
-          <Col xs={12} md={4} className="text-center">
+          <Col xs={12} md={12} className="text-center">
             <Title title={"Projects"} />
           </Col>
         </Row>
