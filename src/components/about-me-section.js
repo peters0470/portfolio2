@@ -19,7 +19,7 @@ class AboutMe extends Component {
 
           <Col md={9} lg={6} className="mt-3" style={{ color: "#747373", fontSize: "18px" }}>
             {
-              "Full Stack Web Developer with a background in management and the culinary arts. ​Recently obtained a Certificate in Full Stack Web Development from University of Texas. Excellent leadership skills and collaborator who works well on team-based projects as well as independently. Self starter and recognized problem-solver that thrives in fast-paced and quality-driven environments."}
+              "Full Stack Web Developer with a background in management and the culinary arts. ​Recently obtained a Certificate in Full Stack Web Development from University of Texas. As an enthusiastid learner and natural leader, I am excited to use my technical skills and collaborative nature to write cleaner code, identify errors, and help your team to continue to develop innovative, and exciting work. Self starter and recognized problem-solver that thrives in fast-paced and quality-driven environments."}
           </Col>
           <Col lg={2}></Col>
         </Row>
